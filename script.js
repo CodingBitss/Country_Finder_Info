@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
             return;
         }
 
-        const api_url = `https://restcountries.com/v3.1/name/${country_name}`;
+        const api_url = `https://restcountries.com/v3.1/name/india`;
 
         fetch(api_url)
             .then(response => {
